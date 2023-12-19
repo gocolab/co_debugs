@@ -1,4 +1,7 @@
-# co_pythons
+#### needs debugs(refer comment : # hint)
+- solving_problems_functions.py : 5ea
+- solving_problems_classes.py : 6ea
+#### execute program
 ```
 ~$ python ./solving_problems_functions.py
 ~$ python ./solving_problems_classes.py

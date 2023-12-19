@@ -21,7 +21,7 @@ def problems_main(questions) :
         #답변 input
         print("-정답 : ", end=" ")
         question_result = random.randint(1, 4)
-        print("")
+        print("{}".format(question_result))
         
         #리스트에 결과 추가
         list_results.append(question_result)

@@ -1,3 +1,5 @@
+import random
+
 # 문제 출력/사용자 입력 받는 function
 def problems_main(questions) :
     
@@ -18,7 +20,8 @@ def problems_main(questions) :
         print("{}".format(question_b))
         
         #답변 input
-        question_result = input("-정답 : ")
+        print("-정답 : ", end=" ")
+        question_result = random.randint(1, 4)
         print("")
         
         #리스트에 결과 추가
